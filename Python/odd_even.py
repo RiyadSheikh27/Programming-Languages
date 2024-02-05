@@ -1,8 +1,8 @@
 def odd_even(value):
     if value % 2 == 0:
-        return True
+        return 0
     else:
-        return False
+        return 1
 
 
 starting = 0
