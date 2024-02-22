@@ -1,16 +1,20 @@
 def odd_even(value):
     if value % 2 == 0:
-        return 0
+        return True
     else:
-        return 1
+        return False
 
-
+odd= []
+even = []
 starting = 0
-while starting < 100:
+limit = int(input("Limit: "))
+'''while starting < limit:'''
+for i in range(0, limit):
     if odd_even(starting):
-        print(f"{starting} is Even")
+        even.append(starting)
     else:
-        print(f"{starting} is Odd")
+        odd.append(starting)
     starting = starting + 1
 
-    print("Finished")
+print(f"Odd Numbers are: {odd}")
+print(f"Even Numbers are: {even}")

@@ -13,7 +13,7 @@ for i in range(1, limit + 1):
         odd.append(i)
 else:
     even.append(i)
-"""riyad"""
+
 print(odd)
 print(even)
 print("Finished")

@@ -1,0 +1,2 @@
+Taking user inout of List - my_list = [int(x) for x in input("Enter integers separated by space: ").split()]
+
