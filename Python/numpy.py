@@ -1,5 +1,10 @@
-import numpy as np
+import pandas as pd
 
-result = np.arra
+student = [
+    (1, "Riyad", "22", "Chandpur"),
+    (2, "Akash", "23", "Khulna"),
+    (3, "Roshni", "21", "Dhaka"),
+]
 
-print(result)
+df = pd.DataFrame(student, columns=["Serial", "Name", "Age", "Town"])
+df
