@@ -8,7 +8,6 @@ odd= []
 even = []
 starting = 0
 limit = int(input("Limit: "))
-'''while starting < limit:'''
 for i in range(0, limit):
     if odd_even(starting):
         even.append(starting)
