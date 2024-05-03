@@ -1,7 +1,6 @@
 def main():
     num = int(input("Enter Number: "))
-    result = check(num)
-    if result == True:
+    if check(num):
         print("Its an Even Number")
     else:
         print("Its an Odd Number")
